@@ -1,0 +1,44 @@
+
+        h2 {
+
+            color: #fa7e36;
+        }
+        body {
+            font-family: calibri;
+            background-color: #000000;
+        }
+        h1 {
+            text-align: center;
+            color: #fa7e36;
+        }
+        a {
+            text-decoration: none;
+        }
+        /*Seletores de Classe*/
+        .destaque {
+            background-color: #00dddd;
+            font-weight:bolder;
+        }
+        #inicio {
+            background-color: #ff4589;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        p {
+            color: #ffffff;
+        }
+        h3 {
+            color: #ffffff;
+        }
+        li {
+            color: #ffffff;
+        }
+        a {
+            color: #ffffff;
+        }
+
+
+
+
+
+           

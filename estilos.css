@@ -1,0 +1,72 @@
+body {
+    margin: 50px;
+    background-image: linear-gradient(rgb(26, 24, 24), rgb(219, 219, 219));
+}
+.titulos {
+    font-size: 35px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #1c3b00;
+    background-image: linear-gradient(rgb(0, 36, 17), rgb(5, 78, 6));
+    padding: 20px;
+    border-radius: 5px;
+}
+.banner {
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.menu-container {
+    border-radius: 10px;
+    background-color: #d4e1cb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+    border: 3px solid #388e3c;
+}
+.menu {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+.menu li {
+    text-decoration: none;
+    color: #fff;
+    background-color: #388e3c;
+    padding: 10px 20px;
+    margin: 0px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, rgb(5, 35, 21), rgb(26, 122, 45));
+}
+.menu li:hover {
+    background-color: #4caf50;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, rgb(25, 122, 45), rgb(5, 35, 21));
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
