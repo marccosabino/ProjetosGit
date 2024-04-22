@@ -70,3 +70,65 @@ body {
 .menu a:hover {
     text-decoration: underline;
 }
+.card {
+    border: 2px solid #388e3c;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card h2 {
+    font-size: 24px;
+    color: #1c3b00;
+}
+.card p {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+}
+.container-card-galeria {
+    display: flex;
+    border: 0px solid #fff;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.card-galeria {
+    border: 1px #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 18%;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(5, 35, 21), rgb(26, 122, 10));
+    color: #fff;
+}
+.card-galeria img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.card-galeria h2 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-galeria p {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-galeria a {
+    text-decoration: none;
+    color: #007bff;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
